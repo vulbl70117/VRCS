@@ -149,11 +149,11 @@ public class MachineGun : MonoBehaviour
 
         return deviation;
     }
-    private float Direction(direction a)
-    {
+    //private float Direction(direction a)
+    //{
 
-        return 
-    }
+    //    return 
+    //}
 }
 
 
