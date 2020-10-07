@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48d3045d353d63e4e9ac4643da4b504f, type: 3}
+  m_Name: ImpactProcessor
+  m_EditorClassIdentifier: 
+  impactParticles:
+  - {fileID: 1183611002159684, guid: 874510dd36ae31f458e05d20a42afd68, type: 3}
+  - {fileID: 1054734845644930, guid: 54cb08709224b7e4fa23f30261e90279, type: 3}
+  - {fileID: 1221112346363138, guid: 8f18d4bc321801a449426e5f04b42295, type: 3}
+  - {fileID: 1731267177394854, guid: 361806ca8e225b7479307f4fa43a09b5, type: 3}
+  impactLifetime: 1
+  bulletMarksPrefab: {fileID: 2207423495884504421, guid: 016942d66853c3348a47a24d0a252806,
+    type: 3}
+  bulletMarksMaterials:
+  - materials:
+    - {fileID: 2100000, guid: 098c929982ef2884e85422ea78be4015, type: 2}
+    - {fileID: 2100000, guid: f9d8a63cf162fc9479875d90afca61b2, type: 2}
+    - {fileID: 2100000, guid: 5d69cd9f881d355469fac844f3467bbd, type: 2}
+  - materials:
+    - {fileID: 2100000, guid: 5164740de9ca2e64fa3eb1bae6720766, type: 2}
+    - {fileID: 2100000, guid: 5fb6578ec68b3e34da10d7da9b7c29ac, type: 2}
+    - {fileID: 2100000, guid: f72baa5566e4d4e489687ee3de2eaeb8, type: 2}
+    - {fileID: 2100000, guid: 0012d31bbfabbe24eb334deb51fc5b75, type: 2}
+  - materials:
+    - {fileID: 2100000, guid: 71a12c74dcb37cd4e9a2585f96032ff9, type: 2}
+    - {fileID: 2100000, guid: 8a0690a38f8d3f3409b9f7abc3d6ded0, type: 2}
+    - {fileID: 2100000, guid: 378ca28eb5bed7e4a95f9283cc786448, type: 2}
+  - materials:
+    - {fileID: 2100000, guid: 3cd5cb90dff61ef4e861c4a8af83f155, type: 2}
+    - {fileID: 2100000, guid: aee2558ea420fe043971834062842677, type: 2}
+    - {fileID: 2100000, guid: 5dc0d6cef18649848b8d01673868d378, type: 2}
+  bulletMarksNormalOffset: 0.01
+  bulletMarksLifetime: 0.5
+  enemyImpactParticles:
+  - {fileID: 1176165167328636, guid: 6f5c1fefc5a1904479713463a42c8402, type: 3}
+  - {fileID: 1862702955490848, guid: ec8d3f2d1e540084399da023f13f87d7, type: 3}
+  - {fileID: 1671474790284636, guid: 4d7746559804f034daa8e1c8ee23a78a, type: 3}
+  headBloodEffect: {fileID: 1980778944911672, guid: 5ff1cc7dc124b1a42b63892b475e721e,
+    type: 3}
+  defaultBloodEffect: {fileID: 1075468238081444, guid: b5098f1bb64823a419c21728d28d3111,
+    type: 3}
+  enemyPartImpactLifetime: 2
+  enemyPartImpactOffset: 0.04
